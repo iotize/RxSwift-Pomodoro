@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Pomodoro
-//
-//  Created by Ryan Davies on 02/06/2018.
-//  Copyright © 2018 Ryan Davies. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
