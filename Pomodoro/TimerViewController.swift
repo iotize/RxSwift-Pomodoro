@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UIViewController {
+class TimerViewController: UIViewController {
     override func loadView() {
         self.view = TimerView(frame: .zero)
     }

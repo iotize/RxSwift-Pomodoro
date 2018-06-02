@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94ED3EF820C34892000AD13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3EF720C34892000AD13F /* AppDelegate.swift */; };
-		94ED3EFA20C34892000AD13F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3EF920C34892000AD13F /* ViewController.swift */; };
+		94ED3EFA20C34892000AD13F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3EF920C34892000AD13F /* TimerViewController.swift */; };
 		94ED3EFF20C34894000AD13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ED3EFE20C34894000AD13F /* Assets.xcassets */; };
 		94ED3F0220C34894000AD13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ED3F0020C34894000AD13F /* LaunchScreen.storyboard */; };
 		94ED3F0D20C34894000AD13F /* PomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3F0C20C34894000AD13F /* PomodoroTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		94ED3EF420C34892000AD13F /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ED3EF720C34892000AD13F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94ED3EF920C34892000AD13F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94ED3EF920C34892000AD13F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		94ED3EFE20C34894000AD13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94ED3F0120C34894000AD13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94ED3F0320C34894000AD13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				94ED3EF720C34892000AD13F /* AppDelegate.swift */,
-				94ED3EF920C34892000AD13F /* ViewController.swift */,
+				94ED3EF920C34892000AD13F /* TimerViewController.swift */,
 				94ED3F2520C349E8000AD13F /* TimerView.swift */,
 				94ED3EFE20C34894000AD13F /* Assets.xcassets */,
 				94ED3F0020C34894000AD13F /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94ED3F2620C349E8000AD13F /* TimerView.swift in Sources */,
-				94ED3EFA20C34892000AD13F /* ViewController.swift in Sources */,
+				94ED3EFA20C34892000AD13F /* TimerViewController.swift in Sources */,
 				94ED3EF820C34892000AD13F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
