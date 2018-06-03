@@ -2,6 +2,8 @@ platform :ios, '11.0'
 
 target 'Pomodoro' do
   use_frameworks!
+  
+  pod 'UICircularProgressRing'
 
   target 'PomodoroTests' do
     inherit! :search_paths
