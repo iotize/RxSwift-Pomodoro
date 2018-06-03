@@ -1,9 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '11.0'
 
 target 'Pomodoro' do
   use_frameworks!
   
   pod 'UICircularProgressRing'
+  pod 'SnapKit'
 
   target 'PomodoroTests' do
     inherit! :search_paths

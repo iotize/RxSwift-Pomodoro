@@ -1,16 +1,20 @@
 PODS:
+  - SnapKit (4.0.0)
   - UICircularProgressRing (2.1.0)
 
 DEPENDENCIES:
+  - SnapKit
   - UICircularProgressRing
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - SnapKit
     - UICircularProgressRing
 
 SPEC CHECKSUMS:
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   UICircularProgressRing: 01b8f67bbaca7e3a83ccfa67630fe059a51211d1
 
-PODFILE CHECKSUM: 36fb53f348fe2e627afb17d7a0f68b2c268e52e6
+PODFILE CHECKSUM: 3c56c691f7b8271f6e0c228c8b3c0486c88f9100
 
 COCOAPODS: 1.5.3
