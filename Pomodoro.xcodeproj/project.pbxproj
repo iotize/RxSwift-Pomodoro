@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FDF27DCF5CA861853F75C3B /* Pods_Pomodoro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C809AB92A010D2C0D331E8E /* Pods_Pomodoro.framework */; };
+		41ED3830F4F5FFAEACAD2A68 /* Pods_PomodoroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D0BB6CB9AA962FEDF7A086 /* Pods_PomodoroUITests.framework */; };
 		94ED3EF820C34892000AD13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3EF720C34892000AD13F /* AppDelegate.swift */; };
 		94ED3EFA20C34892000AD13F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3EF920C34892000AD13F /* TimerViewController.swift */; };
 		94ED3EFF20C34894000AD13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ED3EFE20C34894000AD13F /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		94ED3F0D20C34894000AD13F /* PomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3F0C20C34894000AD13F /* PomodoroTests.swift */; };
 		94ED3F1820C34894000AD13F /* PomodoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3F1720C34894000AD13F /* PomodoroUITests.swift */; };
 		94ED3F2620C349E8000AD13F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3F2520C349E8000AD13F /* TimerView.swift */; };
+		9F32CF44E258B1B4315DA558 /* Pods_PomodoroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526156C864D3F748382CEA07 /* Pods_PomodoroTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C809AB92A010D2C0D331E8E /* Pods_Pomodoro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pomodoro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449C1D15AB34EDB29CB4D350 /* Pods-Pomodoro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomodoro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pomodoro/Pods-Pomodoro.release.xcconfig"; sourceTree = "<group>"; };
+		46521CD2D6A94E4BFD32AC6A /* Pods-PomodoroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PomodoroUITests/Pods-PomodoroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		526156C864D3F748382CEA07 /* Pods_PomodoroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB27441D67140D21D3B9653 /* Pods-Pomodoro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomodoro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pomodoro/Pods-Pomodoro.debug.xcconfig"; sourceTree = "<group>"; };
+		93D0BB6CB9AA962FEDF7A086 /* Pods_PomodoroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ED3EF420C34892000AD13F /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ED3EF720C34892000AD13F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94ED3EF920C34892000AD13F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		94ED3F1720C34894000AD13F /* PomodoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroUITests.swift; sourceTree = "<group>"; };
 		94ED3F1920C34894000AD13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94ED3F2520C349E8000AD13F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		B852A5B8B00BA58B105689E0 /* Pods-PomodoroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PomodoroTests/Pods-PomodoroTests.release.xcconfig"; sourceTree = "<group>"; };
+		EFED08425AC302D532B415D5 /* Pods-PomodoroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PomodoroTests/Pods-PomodoroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F981D0F575552568CCFA3557 /* Pods-PomodoroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PomodoroUITests/Pods-PomodoroUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FDF27DCF5CA861853F75C3B /* Pods_Pomodoro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F32CF44E258B1B4315DA558 /* Pods_PomodoroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41ED3830F4F5FFAEACAD2A68 /* Pods_PomodoroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		546A9DBB6C7BC54E46FC0B7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CB27441D67140D21D3B9653 /* Pods-Pomodoro.debug.xcconfig */,
+				449C1D15AB34EDB29CB4D350 /* Pods-Pomodoro.release.xcconfig */,
+				EFED08425AC302D532B415D5 /* Pods-PomodoroTests.debug.xcconfig */,
+				B852A5B8B00BA58B105689E0 /* Pods-PomodoroTests.release.xcconfig */,
+				46521CD2D6A94E4BFD32AC6A /* Pods-PomodoroUITests.debug.xcconfig */,
+				F981D0F575552568CCFA3557 /* Pods-PomodoroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		94ED3EEB20C34892000AD13F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				94ED3F0B20C34894000AD13F /* PomodoroTests */,
 				94ED3F1620C34894000AD13F /* PomodoroUITests */,
 				94ED3EF520C34892000AD13F /* Products */,
+				546A9DBB6C7BC54E46FC0B7E /* Pods */,
+				A5F4D6D935AD0EB1F5F604A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = PomodoroUITests;
 			sourceTree = "<group>";
 		};
+		A5F4D6D935AD0EB1F5F604A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C809AB92A010D2C0D331E8E /* Pods_Pomodoro.framework */,
+				526156C864D3F748382CEA07 /* Pods_PomodoroTests.framework */,
+				93D0BB6CB9AA962FEDF7A086 /* Pods_PomodoroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94ED3F1C20C34894000AD13F /* Build configuration list for PBXNativeTarget "Pomodoro" */;
 			buildPhases = (
+				2D6682379ADEBFE45E354A68 /* [CP] Check Pods Manifest.lock */,
 				94ED3EF020C34892000AD13F /* Sources */,
 				94ED3EF120C34892000AD13F /* Frameworks */,
 				94ED3EF220C34892000AD13F /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94ED3F1F20C34894000AD13F /* Build configuration list for PBXNativeTarget "PomodoroTests" */;
 			buildPhases = (
+				396C041FD3EC3323BE8DC91A /* [CP] Check Pods Manifest.lock */,
 				94ED3F0420C34894000AD13F /* Sources */,
 				94ED3F0520C34894000AD13F /* Frameworks */,
 				94ED3F0620C34894000AD13F /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94ED3F2220C34894000AD13F /* Build configuration list for PBXNativeTarget "PomodoroUITests" */;
 			buildPhases = (
+				74A4D8074F758DFCA1EDFEC3 /* [CP] Check Pods Manifest.lock */,
 				94ED3F0F20C34894000AD13F /* Sources */,
 				94ED3F1020C34894000AD13F /* Frameworks */,
 				94ED3F1120C34894000AD13F /* Resources */,
@@ -249,6 +292,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D6682379ADEBFE45E354A68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pomodoro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		396C041FD3EC3323BE8DC91A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PomodoroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A4D8074F758DFCA1EDFEC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PomodoroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94ED3EF020C34892000AD13F /* Sources */ = {
@@ -420,6 +520,7 @@
 		};
 		94ED3F1D20C34894000AD13F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB27441D67140D21D3B9653 /* Pods-Pomodoro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,6 +538,7 @@
 		};
 		94ED3F1E20C34894000AD13F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449C1D15AB34EDB29CB4D350 /* Pods-Pomodoro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +556,7 @@
 		};
 		94ED3F2020C34894000AD13F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFED08425AC302D532B415D5 /* Pods-PomodoroTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,6 +577,7 @@
 		};
 		94ED3F2120C34894000AD13F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B852A5B8B00BA58B105689E0 /* Pods-PomodoroTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +598,7 @@
 		};
 		94ED3F2320C34894000AD13F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46521CD2D6A94E4BFD32AC6A /* Pods-PomodoroUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +618,7 @@
 		};
 		94ED3F2420C34894000AD13F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F981D0F575552568CCFA3557 /* Pods-PomodoroUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
