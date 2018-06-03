@@ -1,5 +1,4 @@
 import UIKit
-import UICircularProgressRing
 import SnapKit
 
 class TimerView: UIView {
@@ -20,12 +19,10 @@ class TimerView: UIView {
         return stackView
     }()
     
-    private let progressView: UICircularProgressRingView = {
-        let progressView = UICircularProgressRingView()
-        progressView.innerRingColor = .red
-        progressView.outerRingColor = .white
-        progressView.value = 100
-        progressView.valueIndicator = ""
+    private let progressView: ProgressView = {
+        let progressView = ProgressView()
+        progressView.text = "2 minutes 15 seconds"
+        progressView.progress = 0.5
         progressView.snp.makeConstraints { make in
             make.height.equalTo(progressView.snp.width)
         }

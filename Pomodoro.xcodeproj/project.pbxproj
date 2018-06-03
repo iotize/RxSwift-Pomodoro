@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FDF27DCF5CA861853F75C3B /* Pods_Pomodoro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C809AB92A010D2C0D331E8E /* Pods_Pomodoro.framework */; };
 		41ED3830F4F5FFAEACAD2A68 /* Pods_PomodoroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D0BB6CB9AA962FEDF7A086 /* Pods_PomodoroUITests.framework */; };
+		942ECD1B20C4A94C00D444CC /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ECD1A20C4A94C00D444CC /* ProgressView.swift */; };
 		94ED3EF820C34892000AD13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3EF720C34892000AD13F /* AppDelegate.swift */; };
 		94ED3EFA20C34892000AD13F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3EF920C34892000AD13F /* TimerViewController.swift */; };
 		94ED3EFF20C34894000AD13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ED3EFE20C34894000AD13F /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		526156C864D3F748382CEA07 /* Pods_PomodoroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB27441D67140D21D3B9653 /* Pods-Pomodoro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomodoro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pomodoro/Pods-Pomodoro.debug.xcconfig"; sourceTree = "<group>"; };
 		93D0BB6CB9AA962FEDF7A086 /* Pods_PomodoroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		942ECD1A20C4A94C00D444CC /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		94ED3EF420C34892000AD13F /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ED3EF720C34892000AD13F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94ED3EF920C34892000AD13F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				94ED3EF720C34892000AD13F /* AppDelegate.swift */,
 				94ED3EF920C34892000AD13F /* TimerViewController.swift */,
 				94ED3F2520C349E8000AD13F /* TimerView.swift */,
+				942ECD1A20C4A94C00D444CC /* ProgressView.swift */,
 				94ED3EFE20C34894000AD13F /* Assets.xcassets */,
 				94ED3F0020C34894000AD13F /* LaunchScreen.storyboard */,
 				94ED3F0320C34894000AD13F /* Info.plist */,
@@ -377,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94ED3F2620C349E8000AD13F /* TimerView.swift in Sources */,
+				942ECD1B20C4A94C00D444CC /* ProgressView.swift in Sources */,
 				94ED3EFA20C34892000AD13F /* TimerViewController.swift in Sources */,
 				94ED3EF820C34892000AD13F /* AppDelegate.swift in Sources */,
 			);
