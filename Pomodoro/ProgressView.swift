@@ -35,6 +35,7 @@ class ProgressView: UIView {
         progressView.innerRingColor = .red
         progressView.outerRingColor = .white
         progressView.maxValue = 1
+        progressView.startAngle = 270
         progressView.shouldShowValueText = false
         return progressView
     }()
