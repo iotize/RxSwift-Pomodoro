@@ -6,6 +6,7 @@ target 'Pomodoro' do
   
   pod 'UICircularProgressRing'
   pod 'SnapKit'
+  pod 'RxCocoa'
 
   target 'PomodoroTests' do
     inherit! :search_paths
